@@ -1,18 +1,18 @@
 body {
   color: #f7f7f8;
-    background-color: #0f0f10;
-    margin-top: 150px;
+  background-color: #0f0f10;
+  margin-top: 100px;
 }
 
 .flex-center {
 	text-align: center;
-    color: 000;
+  color: 000;
 }
 
 
 h1 {
     font-family: 'Inknut Antiqua', serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: lighter;
     letter-spacing: 3px;
     text-align: center;
@@ -150,7 +150,15 @@ li a:hover {
     margin-top: 70px;
 }
 
-
+footer {
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing:  1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
 
