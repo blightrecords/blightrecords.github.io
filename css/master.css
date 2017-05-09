@@ -1,13 +1,23 @@
+@import url (//fonts.gstatic.com/s/inknutantiqua/v1/VlmmTfOrxr3HfcnhMueX9atoDbLSSrCy0wD4zOeDSHc.woff);
+
+@font-face {
+  font-family: 'Inknut Antiqua';
+  font-style: normal;
+  font-weight: 400;
+  src: url (https://fonts.gstatic.com/s/inknutantiqua/v1/VlmmTfOrxr3HfcnhMueX9bdkbqOJuiM47cWeJ_SLmGk.woff2) format('woff2');
+ }
+
+ @font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poppins/v1/dDzx7Qrpf6EUDCpeO-RralKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+}
+
 body {
 	color: #f7f7f8;
   	background-color: #0f0f10;
 }
-
-
-/*div {
-	width: 50%;
-	margin: 0 auto;
-}*/
 
 p {
 	font-family: 'Poppins', sans-serif;
@@ -15,10 +25,6 @@ p {
   	letter-spacing:  0.5px;
   
 }
-
-/*img {
-   width: 120px;    
-}*/
 
 .logo {
 	background-color: 0f0f10;
@@ -39,27 +45,6 @@ img.artist-content {
 	margin: 0 auto;
 	display: block;
 }
-
-/* Artists */ 
-
-/* .artist {
-  width: 200px;
-  height: 200px;
-  padding: 15px;
-  margin-left: ;
-  
-}
-
-.artist:hover {
-	filter: invert(100%);
-}
-
-.artist-content {
-  width: 100%;
-  margin: ; 
-} 
-
-* /
 
 /* Navbar */
 
