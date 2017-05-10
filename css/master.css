@@ -1,23 +1,7 @@
-@import url (//fonts.gstatic.com/s/inknutantiqua/v1/VlmmTfOrxr3HfcnhMueX9atoDbLSSrCy0wD4zOeDSHc.woff);
-
-@font-face {
-  font-family: 'Inknut Antiqua';
-  font-style: normal;
-  font-weight: 400;
-  src: url (https://fonts.gstatic.com/s/inknutantiqua/v1/VlmmTfOrxr3HfcnhMueX9bdkbqOJuiM47cWeJ_SLmGk.woff2) format('woff2');
- }
-
- @font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/poppins/v1/dDzx7Qrpf6EUDCpeO-RralKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
-}
-
 body {
 	color: #f7f7f8;
   	background-color: #0f0f10;
-}
+  }
 
 p {
 	font-family: 'Poppins', sans-serif;
@@ -35,7 +19,7 @@ p {
 }
 
 div.main-cover {
-	max-width: ! important 100%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -63,11 +47,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: ;
 }
 
 .navbar li {
-    float: ;
     display: inline;
     border-right: 1px solid #aaa;
 }
@@ -77,7 +59,6 @@ ul {
     text-align: center;
     padding: 30px;
     text-decoration: none;
-    margin-right: ;
 }
 
 
@@ -100,9 +81,6 @@ a {
 /* Mouse over link */
 a:hover {
     color: hotpink;
-}
-a:hover {
-    background-color: ;
 }
 
 /*Icons*/
@@ -130,7 +108,6 @@ a:hover {
 .name {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
-	font-weight: ;
 	letter-spacing: 1.5px;
 
 }
