@@ -7,12 +7,7 @@ body {
 div {
     margin: 0 auto;
     width: 50%;
-    border: ;
     text-align: center;
-}
-
-.flex-center {
-    
 }
 
 h1 {
@@ -24,14 +19,22 @@ h1 {
 	text-decoration: uppercase;
 }
 
+h2 {
+    font-family: 'Inknut Antiqua', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: -10px;
+}
 
 p {
 	text-align: left;
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: 1px;
 	font-size: 12px;
+}
 
-
+img {
+    width: 250px;
 }
 
 /* Navbar */
@@ -55,7 +58,6 @@ ul .navbar {
 }
 
 .navbar li {
-    float: ;
     display: inline;
     border-right: 1px solid #aaa;
     color: #f7f7f8;
@@ -124,13 +126,6 @@ a {
     text-decoration: none;
 }
 
-h2 {
-    font-family: 'Inknut Antiqua', serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-bottom: -10px;
-}
-
 footer {
     font-family: 'Inknut Antiqua', serif;
     font-weight: 300;
@@ -140,3 +135,85 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* media queries */
+
+/* for small phones */
+
+  @media (max-width: 599px) { 
+    
+    body {
+        margin-top: 50px;
+        background-color: ;
+    }       
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    img {
+        width: 150px;
+        display: inherit;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    div {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        }
+
+    .flex-center {
+        width: 100%;
+    }
+
+    .navbar li a {
+        font-size: 13px;
+        padding-right: 1px;
+        padding-left: 1px;
+        text-align: center;
+        letter-spacing: 2px;
+          
+      }
+      .navbar li {
+        display: inline;
+        border: 0px;
+        text-align: center;
+        }
+
+      .navbar {
+        margin-bottom: 10px;
+      }
+
+    .list-inline li {
+        font-size: 10px;
+        margin: 0 auto;
+        text-align: center;
+      }  
+
+    .icons li a {
+        font-size: 15px;
+    }  
+
+  }
+
+/* for-tablet-portrait-up */
+
+  @media (min-width: 600px) {  
+    
+       div {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        }
+
+        .flex-center {
+        width: 100%;
+        }
+
+  }
