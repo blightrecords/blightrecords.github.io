@@ -164,7 +164,11 @@ footer {
 
 /* for small phones */
 
-  @media (max-width: 599px) { 
+  @media (min-width: 320px) and (max-width: 599px) { 
+
+    body {
+      background-color: hotpink;
+    }
 
      h1 {
         font-size: 22px;
