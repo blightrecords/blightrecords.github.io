@@ -170,7 +170,7 @@ footer {
         font-size: 22px;
     }
 
-    .flex-center {
+    /*.flex-center {
       margin: 0 auto;
       width: 100%;
     }
@@ -183,12 +183,14 @@ footer {
 
     .container {
   width: 100%;
-  margin: 0 auto;
+
   }
 
     .gallery {
       width: 100%;
       margin: 0 auto;
+      display: flex;
+      flex-wrap: column;
     }
 
     .gallery-item img {
@@ -210,6 +212,7 @@ footer {
   color: #fff;
   opacity: 0;
 }
+*/
 
 
 
