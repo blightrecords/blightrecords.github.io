@@ -144,10 +144,11 @@ footer {
   	}
 
   	.logo {
+  		margin-top: 20px;
   		width: 120px;
   	}
 
-  	.navbar li a {
+  	/*.navbar li a {
 		font-size: 13px;
 		padding-right: 1px;
 		padding-left: 1px;
@@ -171,7 +172,7 @@ footer {
 		margin: 0 auto;
 		text-align: center;
 	  }  
-
+*/
 	img.artist-content {
 		width: 95%;
 		margin: 0 auto;
