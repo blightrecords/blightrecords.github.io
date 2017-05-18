@@ -26,6 +26,7 @@ h1 {
   	letter-spacing: 3px;
 	text-align: center;
 	text-decoration: uppercase;
+	margin-bottom: 10px;
 }
 
 div.main-cover {
@@ -38,6 +39,7 @@ img.artist-content {
 	height: auto;
 	margin: 0 auto;
 	display: block;
+	margin-top: 20px;
 }
 
 
@@ -47,6 +49,19 @@ a:hover {
 }
 
 /*Icons*/
+
+a:link {
+    color: #f7f7f8;
+    
+}
+
+a:visited {
+    color: #f7f7f8;
+}
+
+li a:hover {
+	color: hotpink;
+}
 
 .list-unstyled {
 	margin-top: 20px;
