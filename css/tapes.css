@@ -20,12 +20,6 @@ h1 {
     color: #f7f7f8;
 }
 
-/* Mouse over link */
-
-li a:hover {
-    color: hotpink;
-}
-
 /*Images*/
 
 .container {
@@ -82,50 +76,26 @@ li a:hover {
     font-style: italic;
 }
 
-/* Social */
-
-a:link {
-    color: #f7f7f8;
-    
-}
-
-a:visited {
-    color: #f7f7f8;
-}
-
-li a:hover {
-  color: hotpink;
-}
-
-.list-unstyled {
-    padding-left: 0;
-    list-style: none;
-}
-.list-inline li {
-    display: inline-block;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-   
-}
-
 .flex-center {
     margin-top: 70px;
-}
-
-footer {
-    font-family: 'Inknut Antiqua', serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 12px;
-    letter-spacing:  1px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 /* media queries */
 
 /* for small phones */
+
+/* for-tablet-portrait-up */
+
+@media (max-width: 800px) {
+  .container {
+    width: 495px;
+  }
+
+  .gallery-item img {
+      margin-left: -75px;
+  }
+
+}
 
   @media (max-width: 599px) { 
 
@@ -145,11 +115,8 @@ footer {
 
     .gallery-item img {
       margin-left: 0px;
-  }   
-
-    img {
       padding-top: 0px;
-    }
+  }   
 
     .flex-center {
       margin-top: 30px;
@@ -158,18 +125,7 @@ footer {
 
 }
 
-/* for-tablet-portrait-up */
 
-@media (max-width: 800px) {
-  .container {
-    width: 495px;
-  }
-
-  .gallery-item img {
-      margin-left: -75px;
-  }
-
-}
 
 
 

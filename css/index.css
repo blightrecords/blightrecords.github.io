@@ -42,39 +42,6 @@ img.artist-content {
 	margin-top: 20px;
 }
 
-
-/* Mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/*Icons*/
-
-a:link {
-    color: #f7f7f8;
-    
-}
-
-a:visited {
-    color: #f7f7f8;
-}
-
-li a:hover {
-	color: hotpink;
-}
-
-.list-unstyled {
-	margin-top: 20px;
-	padding-left: 0;
-	list-style: none;
-}
-.list-inline li {
-	display: inline-block;
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-bottom: 10px;
-}
-
 .flex-center {
 	text-align: center;
 	font-family: 'Poppins';
@@ -88,16 +55,6 @@ li a:hover {
 	font-size: 16px;
 	letter-spacing: 1.5px;
 
-}
-
-footer {
-	font-family: 'Inknut Antiqua', serif;
-  	font-weight: 300;
-	text-align: center;
-	font-size: 12px;
-  	letter-spacing:  1px;
-	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 /* media queries */
